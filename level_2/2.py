@@ -1,7 +1,7 @@
 from constants import ___
 
 
-def is_recovery_code_correct(code: ___, user_codes: ___) -> ___:
+def is_recovery_code_correct(code: int, user_codes: list[int]) -> bool:
     pass
 
 
