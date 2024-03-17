@@ -3,7 +3,7 @@ import decimal
 from constants import ___
 
 
-def get_transaction_amount(transaction_id: int, transactions_amounts_map: dict[decimal.Decimal]) -> float | None:
+def get_transaction_amount(transaction_id: int, transactions_amounts_map: dict[int, decimal.Decimal]) -> float | None:
     pass
 
 
